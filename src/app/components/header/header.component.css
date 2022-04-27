@@ -1,0 +1,21 @@
+
+.container-fluid{
+    background-color: #000000;
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-right: calc(-5em * var(--bs--gutter--x));
+    margin-left: calc(-5em * var(--bs--gutter--x));
+    padding-left: calc(var(--bs--gutter--x) * .5);
+}
+
+#app_social{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: .5em;
+}
+
+
+
+

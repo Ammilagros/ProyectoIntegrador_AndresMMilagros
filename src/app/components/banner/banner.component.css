@@ -1,0 +1,11 @@
+#container-banner{
+   background-color: #000000;
+   display: flex;
+   justify-content: center;
+   height: 15em;
+}
+
+#banner{
+   height: 15em;
+   width: 25em;
+}

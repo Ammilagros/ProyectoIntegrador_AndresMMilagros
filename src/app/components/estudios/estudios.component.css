@@ -1,0 +1,47 @@
+.container-fluid, .list-group, .list-group-item{
+    background-color: #000000;
+}
+
+.list-group, .list-group-item, .title_container {
+    color: #FFF;
+    padding: 1em;
+}
+
+
+.title_container{
+    display: flex;
+    padding: 1em;
+    margin-top: 15%;
+    justify-content: center;
+}
+
+.list-group-item {
+    margin-top: 2em;
+    border: solid 3px #7998EF;
+}
+
+.btn-secondary {
+    background-color: #000000;
+    border: #F9AC52 solid 1.5px;
+    padding: .5em;
+    letter-spacing: 5px;
+    width: 5em;
+}
+
+#contenedor-boton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h3, h5, small{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+}
+
+p, button{
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+    padding: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');

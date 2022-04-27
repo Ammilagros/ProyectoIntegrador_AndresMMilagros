@@ -1,0 +1,49 @@
+
+.container-fluid{
+    background-color: #000000;
+    height: 90vh;
+}
+
+#contenedor-tarjeta{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 10%;
+}
+
+.card{
+    background-color: #000000;
+    border: solid 3px #BE8CE5;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    padding: 1em;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    letter-spacing: .5px;
+    padding: .5em;
+}
+
+p, button{
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.btn-secondary {
+    background-color: #000000;
+    border: #F9AC52 solid 1.5px;
+    display: flex;
+    padding: 1em;
+    position: relative;
+    width: 7em;
+}
+
+#contenedor-boton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
