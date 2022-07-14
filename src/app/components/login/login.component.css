@@ -1,0 +1,25 @@
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+
+.col-8{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#form-login{
+    background-color:  #4c4d52;
+    border: solid 3px  #252527;
+    display: flex;
+        flex-direction: column ;
+        justify-content: center;
+    padding: 2em;
+}
+
+.form-label{
+    color: white;
+    letter-spacing: .5em;
+}

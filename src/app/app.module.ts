@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
@@ -12,6 +11,9 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { HardAndSoftKillsComponent } from './components/hard-and-soft-kills/hard-and-soft-kills.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './components/login/login.component';
+import { ModalLoginComponent } from './components/modal-login/modal-login.component';
+
 
 
 @NgModule({
@@ -26,10 +28,11 @@ import { FooterComponent } from './components/footer/footer.component';
     EstudiosComponent,
     HardAndSoftKillsComponent,
     FooterComponent,
+    LoginComponent,
+    ModalLoginComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans+Mono & display=swap');
+
+
 .container-fluid, .list-group, .list-group-item{
     background-color: #000000;
 }
@@ -7,41 +12,68 @@
     padding: 1em;
 }
 
+.title_container, h3, p {
+   color: #00FF00;
+}
+
 
 .title_container{
+    width: 100%;
+    height: 30%;
+    margin-right: 15%;
     display: flex;
     padding: 1em;
-    margin-top: 15%;
     justify-content: center;
 }
 
 .list-group-item {
     margin-top: 2em;
-    border: solid 3px #7998EF;
+    border: solid 3px #4c4d52;
 }
 
-.btn-secondary {
-    background-color: #000000;
-    border: #F9AC52 solid 1.5px;
-    padding: .5em;
-    letter-spacing: 5px;
-    width: 5em;
-}
+
 
 #contenedor-boton{
     display: flex;
     flex-direction: row-reverse;
 }
 
-h3, h5, small{
-    font-family: 'Merriweather', serif;
-    letter-spacing: 1px;
+h3, h5, small {
+    font-family: 'VT323', monospace;
 }
 
-p, button{
-    font-family: 'PT Sans', sans-serif;
+h5{
+    color: #FFF;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+
+ h5, small{
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+
+p{  
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
     letter-spacing: 1px;
     padding: 1em;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
+
+/*
+  Utilice mediaquery ya que me encontre con un problema de visualizacion de un elemento HTML
+*/
+
+@media (max-width: 452px) {
+    .title_container{
+        margin-top: 30%;
+        height: 50%;
+    }
+}
+

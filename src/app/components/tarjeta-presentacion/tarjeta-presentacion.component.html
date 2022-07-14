@@ -1,23 +1,38 @@
+<!--CSS 98 DESING-->
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/98.css"
+>
+
+<!---->
 
 <div class="container-fluid">
     <div class="row" id="contenedor-tarjeta">
         <div class="card col-11">
             <div id="card-text"> 
-                <div id="contenedor-titulo"> 
-                    <h3>¡Bienvenidos mi portfolio!<br></h3>
+                <div class="title-bar inactive">
+                    <div class="title-bar-text">Bienvenidos a mi portafolio!</div>
+                    <div class="title-bar-controls">
+                      <button aria-label="Close"></button>
+                    </div>
                 </div>
-                <p>
+                <p class="window">
                     Mi nombre es Maria Milagros Andres, soy una estudiante de Desarrollo de Software de oficio, 
                     actualmente vivo en Buenos Aires, Argentina.<br>
+                    Me mantengo en constante aprendizaje, a pesar de que mi experiencia no es mucha, tengo algunos pequeños proyectos personales que realice a modo de practicas, mientras sigo en mi camino de encontrar mi primer experiencia laboral 
+                    y mejorando mis habilidades como desarrolladora.<br>
                     Diseñé e implemente esta pagina web con tecnologias como Boostrap5 y Angular 
                     como parte del proyecto integrador final 
-                    de la segunda parte (#YoProgramo) del curso Argentina Programa para mostrar mi información, 
+                    de la segunda parte (#YoProgramo) del curso <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">Argentina Programa</a> para mostrar mi información, 
                     estudios e intereses.
                 </p> 
+                <div id="contenedor-boton">
+                    <button class="boton-habilitar-edicion"> Editar</button>
+                </div>
             </div>
-            <div id="contenedor-boton">
-                <button class="boton-habilitar-edicion btn btn-secondary btn-sm"> Editar</button>
-            </div>
+           
             
         </div>
     </div>
+</div>    

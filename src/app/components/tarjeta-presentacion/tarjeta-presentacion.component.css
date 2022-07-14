@@ -1,49 +1,46 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
 .container-fluid{
     background-color: #000000;
     height: 90vh;
 }
 
+/*TARJETA*/
+
 #contenedor-tarjeta{
     display: flex;
     position: relative;
     justify-content: center;
-    top: 10%;
+    top: 20%;
+}
+
+.title-bar-text{
+    padding: .5em;
+    letter-spacing: .5em;
+    font-size: 1em;
 }
 
 .card{
     background-color: #000000;
-    border: solid 3px #BE8CE5;
     display: flex;
-    justify-content: center;
-    color: #FFF;
+    flex-direction: row;
     padding: 1em;
 }
 
-h3{
-    font-family: 'Merriweather', serif;
-    letter-spacing: .5px;
+.window{
+    font-size: 1rem;
+    padding: 2em;
+}
+
+
+#card-text{
     padding: .5em;
 }
 
-p, button{
-    font-family: 'PT Sans', sans-serif;
-    letter-spacing: 2px;
-}
 
-
-.btn-secondary {
-    background-color: #000000;
-    border: #F9AC52 solid 1.5px;
-    display: flex;
-    padding: 1em;
-    position: relative;
-    width: 7em;
-}
+/*BOTON*/
 
 #contenedor-boton{
     display: flex;
     flex-direction: row-reverse;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');

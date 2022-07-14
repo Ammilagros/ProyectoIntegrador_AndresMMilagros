@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
+
 
 .container-fluid{
     background-color: #000000;
@@ -7,9 +7,9 @@
 
 
 small{
-    color: rgb(247, 222, 238);
     display: flex;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
     justify-content: center;
     letter-spacing: 2px;
 }

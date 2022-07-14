@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SocialComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
+
 
   ngOnInit(): void {
+      const modalLogin = document.getElementById('modal-login');
+      const botonLogin = document.getElementById('boton-login');
+
+      if (modalLogin !== null && botonLogin !== null) {
+          botonLogin.addEventListener('click', ev => {
+              modalLogin.style.display = 'flex';
+          }); 
+      }
   }
 
 }
