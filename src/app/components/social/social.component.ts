@@ -21,4 +21,10 @@ export class SocialComponent implements OnInit {
       }
   }
 
+
+  /**
+   * Cuando el usuario haga click en  botonLogin 
+   * se cambiará el display del elemento modalLogin para que sea visible.
+   */
+
 }
