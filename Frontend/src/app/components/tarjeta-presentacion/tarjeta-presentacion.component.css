@@ -13,10 +13,11 @@
     top: 20%;
 }
 
-.title-bar-text{
+.title-bar , .inactive , .title-bar-text, .title-bar-controls{
     padding: .5em;
     letter-spacing: .5em;
     font-size: 1em;
+    
 }
 
 .card{
@@ -27,6 +28,8 @@
 }
 
 .window{
+    background-color: #000000;
+    border: #00FF00;
     font-size: 1rem;
     padding: 2em;
 }
@@ -34,6 +37,8 @@
 
 #card-text{
     padding: .5em;
+    color: #00FF00;
+    font-family: 'VT323', monospace;
 }
 
 
@@ -44,3 +49,9 @@
     flex-direction: row-reverse;
 }
 
+button {
+    background-color: #000000;
+    border: #00FF00;
+    color: #00FF00;
+    font-family: 'VT323', monospace;
+}

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
 
+/*BOTON*/
+
+button {
+    background-color: #000000;
+    border: #00FF00;
+    color: #00FF00;
+    font-family: 'VT323', monospace;
+}
+
 .container-fluid, .list-group, .list-group-item{
     background-color: #000000;
 }
@@ -26,7 +35,7 @@
     flex-direction: row-reverse;
 }
 
-h3, h5, small {
+h3, h5, small, button {
     font-family: 'VT323', monospace;
 }
 

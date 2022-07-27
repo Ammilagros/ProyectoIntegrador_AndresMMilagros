@@ -65,6 +65,12 @@ p{
     padding: 1em;
 }
 
+button {
+    background-color: #000000;
+    border: #00FF00;
+    color: #00FF00;
+    font-family: 'VT323', monospace;
+}
 
 /*
   Utilice mediaquery ya que me encontre con un problema de visualizacion de un elemento HTML
